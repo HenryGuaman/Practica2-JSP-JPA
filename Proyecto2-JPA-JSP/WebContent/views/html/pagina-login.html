@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Inicio de Sesion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/e564244708.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+        <link rel="stylesheet" href="estilos/css/styles.css">
+        <!-- Site Icons -->
+	    <link rel="shortcut icon" href="#" type="image/x-icon" />
+	    <link rel="apple-touch-icon" href="#" />
+	
+	    <!-- Bootstrap CSS -->
+	    <link rel="stylesheet" href="plantillas/css/bootstrap.min.css">
+	    <!-- Pogo Slider CSS -->
+	    <link rel="stylesheet" href="plantillas/css/pogo-slider.min.css">
+	    <!-- Site CSS -->
+	    <link rel="stylesheet" href="plantillas/css/style.css">
+	    <!-- Responsive CSS -->
+	    <link rel="stylesheet" href="plantillas/css/responsive.css">
+	    <!-- Custom CSS -->
+	    <link rel="stylesheet" href="plantillas/css/custom.css">
+	
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+    </head>
+    <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+    
+    	<header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container-fluid">
+            <li><a class="nav-link" href="/Practica01Servlets">Mi Agenda Telefonica</a></li>
+                <input type="text" placeholder="Buscar..." name="usuario">
+                 <input type="submit"  value="Buscar">
+                <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                      
+                        <li><a class="nav-link" href="registro">Registro</a></li>
+                        <li><a class="nav-link active" style="background:#fff;color:#000;" href="login">Iniciar Sesion</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    
+      <!-- section -->
+    <div class="section layout_padding">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-lg-10 offset-lg-1 margin-top_30">
+                    <div class="full text_align_center">
+                    	<form class="ui form" method="POST">
+                            <div class="field">
+                                <label>Correo</label>
+                                <div class="ui left icon input">
+                                    <input type="text" placeholder="example@example.com" name="mail" required="">
+                                    <i class="envelope icon"></i>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Password</label>
+                                <div class="ui left icon input">
+                                    <input type="password" name="pass" required="">
+                                    <i class="lock icon"></i>
+                                </div>
+                            </div>
+                            <input type="submit" class="ui blue submit button" value="Iniciar">
+                        </form>
+                    
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end section -->
+    
+    
+		        <!-- Start Footer -->
+    <footer class="footer-box">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="logo">
+                        
+                    </div>
+                </div>
+                <div class="col-lg-12 white_fonts">
+                    <h4 class="text-align">Contactanos</h4>
+                </div>
+                
+            
+            </div>
+            <div class="row white_fonts margin-top_30">
+                <div class="col-lg-12">
+                    <div class="full">
+                        <div class="center">
+                            <ul class="social_icon">
+                                <li><a href="href="https://www.facebook.com/henry.guaman.338" target="_BLANK""><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <p>&COPY; 2020 Todos los derechos reservados | Realizado por Henry Guaman</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    </body>
+</html>
