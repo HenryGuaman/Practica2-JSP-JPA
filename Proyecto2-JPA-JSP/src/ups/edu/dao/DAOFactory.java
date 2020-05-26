@@ -8,8 +8,6 @@ public abstract class DAOFactory {
 		return factory;
 	}
 
-	// public abstract void createTables();
-
 	public abstract UsuarioDAO getUsuarioDAO();
 
 	public abstract TelefonoDAO getTelefonoDAO();

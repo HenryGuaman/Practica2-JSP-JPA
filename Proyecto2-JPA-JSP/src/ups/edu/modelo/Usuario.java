@@ -19,6 +19,7 @@ public class Usuario implements Serializable {
 	private String cedula;
 	private String nombre;
 	private String apellido;
+	@Column(name="correo",unique=true, nullable=false)
 	private String correo;
 	private String pass;
 	private int activo;

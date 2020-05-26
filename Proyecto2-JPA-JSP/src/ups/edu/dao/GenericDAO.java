@@ -20,6 +20,8 @@ public interface GenericDAO<T, ID> {
 
     public List<T> find();
     
+
+    
     Telefono read(Usuario usuario);
 
 	List<Telefono> findByUsuario(Usuario usuario);
